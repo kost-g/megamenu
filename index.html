@@ -19,6 +19,9 @@
 	<body>
 		<div class="wrapp">
 			<div class="container">
+				
+				<!-- ******************************Header start************************************* -->
+
 				<div class="row header">
 					<div class="col-md-6">
 						<div class="logo">
@@ -32,11 +35,19 @@
 								<a href="#">Sign Up</a>
 							</div>
 							<div class="cart">	
-								<a href="#"><img src="images/cart.png" alt="cart"></a>
+								<a href="javascript:PopUpShow()"><img src="images/cart.png" alt="cart"></a>
+							</div>
+							<div class="b-popup" id="popup1">
+								<div class="b-popup-content">
+									<a href="javascript:PopUpHide()">Close</a>
+								</div>
 							</div>
 						</div>
 					</div>		
 				</div>
+
+				<!-- ******************************Header end************************************* -->
+				
 				<div class="row slider">
 					<div class="col-md-12">
 						<div id="owl-demo" class="mainslide owl-carousel owl-theme">
@@ -105,7 +116,7 @@
 									</a>
 								</div>
 								<div class="plugin_name">
-									<a href="product.html">
+									<a href="#">
 										Multiple flat shipping rates	
 									</a>
 								</div>
@@ -168,7 +179,7 @@
 							</div>
 							<div class="old_price">
 								<span>
-									$129.90	
+									
 								</span>
 							</div>
 							<div class="down_plug_line">
@@ -195,7 +206,7 @@
 								</a>
 							</div>
 							<div class="plugin_name">
-								<a href="#">
+								<a href="megamenu.html">
 									Megamenu	
 								</a>
 							</div>
@@ -232,6 +243,9 @@
 							</div>
 						</div>
 				</div>
+				
+				<!-- ******************************Footer start************************************* -->
+				
 				<div class="row footer">
 					<div class="footer_content">
 						<div class="col-md-3 company">
@@ -258,19 +272,23 @@
 						</div>
 						<div class="col-md-5 subscribe">
 							<p>Useful delivery of a Magenta. Tutorials, tips and examples of each week, without spam.</p>
-							<div class="input">
-								<input title="&#9993; Enter your email adress" placeholder=" &#9993; Enter your email adress" type="text" name="email" required></input>
-								<span></span>	
-							</div>
-							<div class="mail_button">
-								<button title="Subscribe" onclick="#" type="submit">Subscribe</button>
-							</div>
+							<form action="#" method="POST" name="subs" id="subs_form">
+								<div class="input">
+									<input  name="email" type="email" title="&#9993; Enter your email adress" placeholder=" &#9993; Enter your email adress" required></input>	
+								</div>
+								<div class="mail_button">
+									<button title="Subscribe" onclick="#" type="submit">Subscribe</button>
+								</div>
+							</form>
 						</div>
 					</div>
 				</div>
 				<div class="row reserved_rights">
 					<p>&#169; 2016 Magenear.com. All Rights Reserved.</p>
 				</div>
+
+				<!-- ******************************Footer end************************************* -->
+
 			</div>
 		</div>
 		<!--[if lt IE 9]>
@@ -290,6 +308,18 @@
 		<script src="libs/countdown/jquery.countdown-ru.js"></script>
 		<script src="libs/landing-nav/navigation.js"></script>
 		<script src="js/common.js"></script>
+		<!-- Cart pop-up window -->
+		<script>
+			$(document).ready(function(){
+			PopUpHide();
+			});
+			function PopUpShow(){
+			$("#popup1").show();
+			}
+			function PopUpHide(){
+			$("#popup1").hide();
+			}
+		</script>	
 		<script>$(document).ready(function() {
 			$("#owl-demo").owlCarousel({
  
@@ -308,7 +338,8 @@
 			});
 			});
 		</script>
-		<!-- Yandex.Metrika counter --><!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter25346996 = new Ya.Metrika({id:25346996, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/25346996" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+		<!-- Yandex.Metrika counter --><!-- Yandex.Metrika counter -->
+		<script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter25346996 = new Ya.Metrika({id:25346996, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/25346996" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 		<!-- Google Analytics counter --><!-- /Google Analytics counter -->		
 	</body>
 </html>

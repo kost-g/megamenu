@@ -270,7 +270,7 @@ h2.row3{
 	background: none;
 }
 .add_cart button:hover {
-	background-color: rgb(94, 141, 167) !important;
+	background-color: #164f6e !important;
 }
 .footer_content {
 	margin-top: 30px;
@@ -353,12 +353,12 @@ h2.row3{
 	background: none;
 }
 .mail_button {
-	background-color: rgb(24, 94, 130);
+	background-color: #185d82;
 	border-radius: 5px;
 	margin-left: 5px;	
 }
 .mail_button:hover {
-	background-color: rgb(94, 141, 167);
+	background-color: #164f6e;
 }
 .reserved_rights {
 	margin-top: -4px;
@@ -370,37 +370,31 @@ h2.row3{
 /***************************************************************************/
 /********Product page*******/
 /***************************************************************************/
-.horizont_line_top {
-	height: 1px;
-	width: auto;
-	background-color: rgb(151, 151, 151);
+.product_name {
 	margin-top: 10px;
-}
-.horizont_line_down {
-	height: 1px;
-	width: auto;
-	background-color: rgb(151, 151, 151);
-	margin-top: -8px;
+	border-top: solid 1px #979797;
+	border-bottom: solid 1px #979797;
 }
 .product_name p{
 	display: inline-block;
-	font-size: 20px;
-	margin-left: 15px;
-	margin-top: 6px;
-	height: 24px;
-	width: 270px;
-	color: rgb(31, 81, 116);
+	margin: 11px 0px 11px 17px;
+	margin-left: 17px;
+	font-family: 'HelveticaNeue';
+	font-size: 21px;
+	line-height: 0.95;
+	color: #15496c;
+}
+.product_name p:last-child{
+	margin-left: 27px;
 }
 .product_descript {
-	margin-top: 34px;
+	margin-top: 44px;
 }
-/*ul.bxslider {
-	list-style: none;
-}*/
 
 /*---------------------------------------------*/
 /***Bxslider***/
 /*---------------------------------------------*/
+
 .bx-wrapper {
 	border:0;
 	box-shadow: none;
@@ -426,80 +420,20 @@ h2.row3{
 /*---------------------------------------------*/
 /***Bxslider end***/
 /*--------------------------------------------*/
-/*
 
-.slide_prev a{
-	display: inline-block;
-	width: 60px;
-	height: 60px;
-}
-.slide_prev a img{
-	width: 60px;
-	height: 60px;
-}*/
 .social_media div{
 	display: inline-block;
 	float: left;
-	margin-top: 20px;
+	margin-top: 7px;
 	margin-right: 10px;
-}
-.face {
-	width: 108px;
-	height: 26px;
-	background-image: url('images/social_plugin.png');
-	background-repeat: no-repeat;
-	background-position: -24px -62px;
-}
-.face:hover {
-	background-image: url('images/social_plugin.png');
-	background-repeat: no-repeat;
-	background-position: -24px -307px;
-}
-.social_media span{
-	display: inline-block;
-	float: right;
-	height: 12px;
-	color: black;
-	font-size: 12px;
-	margin-top: 5px;
-	margin-right: 8px;
-}
-.twi {
-	width: 108px;
-	height: 26px;
-	background-image: url('images/social_plugin.png');
-	background-repeat: no-repeat;
-	background-position: -138px -62px;
-}
-.twi:hover {
-	background-image: url('images/social_plugin.png');
-	background-repeat: no-repeat;
-	background-position: -140px -307px;
-}
-.twi span{
-	color: black;
-}
-.g_plus {
-	width: 66px;
-	height: 26px;
-	background-image: url('images/social_plugin.png');
-	background-repeat: no-repeat;
-	background-position: -340px -62px;
-}
-.g_plus:hover {
-	background-image: url('images/social_plugin.png');
-	background-repeat: no-repeat;
-	background-position: -353px -307px;
-}
-.g_plus span{
-	color: black;
 }
 .views_add {
 	padding-top: 2px;
 }
-.views_add a{
+.views_add a, .views_add p{
 	display: inline-block;
-	font-size: 16px;
+	font-size: 17px;
+	color: #15496c;
 }
 .views_add a:hover{
 	color: rgb(243, 157, 72);
@@ -511,39 +445,63 @@ h2.row3{
 	margin: 0;
 }
 .header_product_name h1{
-	font-size: 50px;
-	margin-top: 0px;
-	margin-bottom: 0;
+	font-family: 'HelveticaNeueMedium';
+	font-size: 48px;
+	font-weight: 500;
+	color: #333333;
+	margin-top: 4px;
+	margin-bottom: 0px;
 }
 .product_text p{
 	font-size: 20px;
-	margin-top: 0px;
+	margin-top: 8px;
+	margin-bottom: 24px;
 	line-height: 23px;
 }
 .buttons_view {
 	width: 400px;
 	height: 120px;
-	margin-left: -20px;
-	margin-top: -20px;
+	margin-left: 0px;
+	margin-top: 0px;
 }
 .buttons_view div{
 	display: inline-block;
 	float: left;
 	width: 165px;
 	height: 52px;
-	border: 2px solid rgb(20, 73, 107);
-	border-radius: 10px;
+	border-radius: 8.7px;
+	border: solid 1.7px #15496c;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.buttons_view div:nth-child(2){
 	margin-left: 20px;
+}
+.buttons_view div:nth-child(3){
 	margin-top: 20px;
+	border-radius: 8.7px;
+	background-image: -webkit-linear-gradient(#2c45c8, #1928a6);
+	background-image: -o-linear-gradient(#2c45c8, #1928a6);
+	background-image: linear-gradient(#2c45c8, #1928a6);
+	border: solid 1.7px #002464;
+	color: white;
 }
 .buttons_view div:hover{
-	border: 2px solid rgb(243, 157, 72);
+	border: solid 1.7px #ef973a;
+
+}
+.buttons_view div:nth-child(3):hover{
+background-image: -webkit-linear-gradient(#2c45c8, #1928a6);
+background-image: -o-linear-gradient(#2c45c8, #1928a6);
+background-image: linear-gradient(#2c45c8, #1928a6);
+border: solid 1.7px #ffffff;
 }
 .buttons_view button {
 	display: inline-block;
-	font-size: 15px;
-	width: 165px;
-	height: 52px;
+	font-size: 17px;
+	font-family: 'HelveticaNeueMedium';
+	width: 185px;
+	height: 54px;
 	border: none;
 	background: none;
 	font-weight: 700;
@@ -553,10 +511,6 @@ h2.row3{
 	float:left;
 	margin-left: 7px;
 	margin-right: 0px;
-}
-.user_butt {
-	background-color: rgb(28, 46, 172);
-	color: white;
 }
 .front_dem button{
 	padding-bottom: 5px;
@@ -595,23 +549,29 @@ h2.row3{
 	height: 245px;
 }
 .old_price_labe {
-	margin-top: 3px;
+	margin-top: 20px;
 	text-decoration: line-through;
 	height: 12px;
 }
 .price_labe {
-	font-size: 30px;
-	margin-top: 5px;
+	margin-top: 2px;
+}
+.price_labe span{
+	font-size: 31px;
+	font-family: 'HelveticaNeueBold';
 }
 .price_items {
 	font-size: 16px;
+}
+.price_items span{
+	font-size: 17px;
 }
 .price_items div{
 	display: inline-block;
 }
 .price_items li{
 	list-style:none;
-	margin-bottom: 6px;
+	margin-bottom: 12px;
 }
 .price_items input{
 	float: left;
@@ -628,62 +588,69 @@ h2.row3{
 	background: none;
 }
 .add_cart_but_plug {
-	margin-top: 10px;
+	margin: 12px 15px 15px auto;
+	margin-top: 12px;
 	width: 232px;
 	height: 50px;
 	color: white;
+	border-radius: 7.4px;
+	background-color: #185d82;
 	font-size: 22px;
-	margin-bottom: 15px;
+}
+.add_cart_but_plug:hover{
+	background-color: #164f6e;
+}
+
+/*******Feedbacks block*******/
+
+.rew_det_inside {
+	height: 35px;
+	border-bottom: solid 1px #979797; 
 }
 .detile_list {
-	margin-top: 65px;
+	margin-top: 45px;
 }
 .descr1, .descr2{
 	display: inline-block;
 	float: left;
-	height: 25px;
 	text-align: center;
+}
+.descr1 a, .descr2 a{
+	padding-top: 9px;
+	display: inline-block;
 	width: 104px;
+	height: 35px;
+	font-size: 17px;
+	color: #15496c;
 }
-.rew_det a{
-	display: inline-block;
-	font-size: 15px;
-	margin-top: -2px;
-	color: rgb(151, 151, 151);
+.descr2 a{
+	padding-left: 0px;
+	width: 122px;
 }
-.rew_det a:hover{
-	color: rgb(0, 0, 0);
+.descr1 a:hover, .descr2 a:hover{
+	color: #a6a6a6;
+	background: white;
+	border: solid 1px #979797;
+	border-top-right-radius:8.7px;
+	border-top-left-radius:8.7px;
+	border-bottom: none;
 }
-.rew_det a:active{
-	color: rgb(0, 0, 0);
+.descr1 a:active, .descr2 a:active{
+	color: #a6a6a6;
+	background: white;
+	border: solid 1px #979797;
+	border-top-right-radius:8.7px;
+	border-top-left-radius:8.7px;
+	border-bottom: none;
 }
-.descr1 div{
-	height: 1px;
-	background-color: rgb(151, 151, 151);
-}
-.descr2 div{
-	height: 1px;
-	background-color: rgb(151, 151, 151);
-}
-.short_line {
-	display: inline-block;
-	float: left;	
-}
-.short_line {
-	display: inline-block;
-	float: left;	
-}
-.line_fill {
-	display: inline-block;
-	height: 1px;
-	width: 932px;
-	margin-top: 20px;
-	background-color: rgb(151, 151, 151);
+.detiledescription{
+	margin-top: 5px;
 }
 .cust_reviews h3{
+	font-family:'HelveticaNeueMedium';
 	margin-top: 7px;
-	font-size: 29px;
-	margin-bottom: 20px;
+	font-size: 30px;
+	margin-bottom: 23px;
 }
 .backs p{
 	font-size: 16px;
@@ -691,23 +658,23 @@ h2.row3{
 	margin-top: 0px;
 }
 p.span_account{
-	margin-top: 0;
-	font-weight: 700;
+	font-size: 17px;
+	font-family: 'HelveticaNeueBold';
 }
 .inform_account span{
-	font-size: 16px;
+	font-size: 17px;
 }
 .inform_account p{
 	margin-top: 0px;
-	margin-bottom: 0px;
-	font-size: 16px;
+	margin-bottom: 2px;
+	font-size: 17px;
 }
 .feedback_text p{
 	margin-top: 2px;
 	margin-bottom: 30px;
-	font-size: 16px;
-	letter-spacing: 0.5px;
-	line-height: 150%;
+	font-size: 17px;
+	line-height: 1.45;
+	color: #333333;
 }
 .inform_account {
 	float: left;
@@ -720,38 +687,45 @@ p.span_account{
 	width: 555px;
 	margin-left: 12px;
 }
+
+/*********Message form*********/
+
+.review_form{
+	margin-top: 2px;
+}
 .mess_head h4{
 	margin-top: 25px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	font-size: 30px;
 }
 .form_nick{
 	display: inline-block;
 	width: 165px;
 	margin-right: 26px;
-	margin-bottom: 18px;
+	margin-bottom: 16px;
 }
 .form_nick input{
-	margin-top: 5px;
+	margin-top: 8px;
 	width: 165px;
 	height: 30px;
-	border: 1px solid rgb(151, 151, 151);
+	box-shadow: inset 0 1px 0 0 #ececec;
+	border: solid 1px #cccccc;
 	border-radius: 5px;
 }
 .form_summ input{
-	margin-top: 5px;
+	margin-top: 7px;
 	width: 262px;
 	height: 30px;
-	border: 1px solid rgb(151, 151, 151);
-	border-radius: 5px;
+	border-radius: 3px;
+	box-shadow: inset 0 1px 0 0 #ececec;
+	border: solid 1px #cccccc;
 }
 .form_summ{
 	display: inline-block;
 	width: 262px;
 }
 .review_add label{
-	font-size: 16px;
-	font-weight: 600;
+	font-size: 17px;;
 }
 .text_review {
 	display: inline-block;
@@ -760,26 +734,39 @@ p.span_account{
 }
 .text_review textarea{
 	display: inline-block;
+	margin-top: 7px;
 	width: 457px;
-	height: 90px;
+	height: 95px;
+	border-radius: 3px;
+	box-shadow: inset 0 1px 0 0 #ececec;
+	border: solid 1px #cccccc;
 }
+.review_add input:focus, .review_add textarea:focus{
+	box-shadow: inset 0 1px 0 0 #ececec;
+	border: solid 1px #185d82;
+}
+/*.review_add input:invalid, .review_add textarea:invalid{
+	box-shadow: inset 0 1px 0 0 #ececec;
+	border: solid 1px #821818;
+}*/
 .send_review_but button {
 	width: 95px;
 	height: 35px;
 	color: white;
 	border: none;
+	font-size: 14px;
+	font-family: 'HelveticaNeueBold';
 	background: none;
 }
 .send_review_but {
-	margin-top: 10px;
+	margin-top: 3px;
 	width: 95px;
 	height: 35px;
 	color: white;
 	border-radius: 5px;
-	font-size: 12px;
 	margin-bottom: 15px;
-	background-color: rgb(24, 94, 130);
+	background-color: #185d82;
 }
 .send_review_but:hover {
-	background-color: rgb(94, 141, 167);
+	background-color: #164f6e;
 }
