@@ -56,51 +56,93 @@
 								<div class="check_out_butt">
 									<button title="Go to Checkout" onclick="#" type="submit">Go to Checkout</button>
 								</div>
-								<ul class="item_positions">
-									<li>
-										<div class="cart_prev_item">
-											<img src="images/cart_item_1.png" alt="preview">
-										</div>
-										<div class="cart_prod_details">
-											<div class="cart_item_description">
-												<div class="cart_item_name">
-													<p>Magento Art plugin</p>
+								<div class="item_positions_block">
+									<ul class="item_positions">
+										<li class="item_positions_lines">
+											<div class="cart_prev_item">
+												<img src="images/cart_item_1.png" alt="preview">
+											</div>
+											<div class="cart_prod_details">
+												<div class="cart_item_description">
+													<div class="cart_item_name">
+														<p>Magento Art plugin</p>
+													</div>
+													<div class="cart_item_close_correct">
+														<a href="#">
+															<span>&#9998;</span>
+														</a>
+														<a href="#">
+															<span>&#10005;</span>
+														</a>
+													</div>
+													<div class="cart_item_see_details">
+														<a href="javascript:PopUpShow()">See Details</a>
+													</div>
 												</div>
-												<div class="cart_item_close_correct">
-													<a href="#">
-														<span>Correct</span>
-													</a>
-													<a href="#">
-														<span>Close</span>
-													</a>
+												<div class="item_details_description">
+													<ul>
+														<li>
+															<span class="property">Color:</span>
+															<span class="value">black</span>
+														</li>
+														<li>
+															<span class="property">Version:</span>
+															<span class="value">silver</span>
+														</li>
+													</ul>
 												</div>
-												<div class="cart_item_see_details">
-													<a href="#">See Details</a>
+												<div class="cart_quantity_cost">
+													<label for="cart_item">Qty</label>
+													<input type="text" id="cart_item">
+													<span>$134,00</span>
 												</div>
 											</div>
-											<div class="item_details_description">
-												<ul>
-													<li>
-														<span class="property">Color:</span>
-														<span class="value">black</span>
-													</li>
-													<li>
-														<span class="property">Version:</span>
-														<span class="value">silver</span>
-													</li>
-												</ul>
+										</li>
+										<li class="item_positions_lines">
+											<div class="cart_prev_item">
+												<img src="images/cart_item_2.png" alt="preview">
 											</div>
-											<div class="cart_quantity_cost">
-												<label for="cart_item">Qty</label>
-												<input type="text" id="cart_item">
-												<span>$134,00</span>
+											<div class="cart_prod_details">
+												<div class="cart_item_description">
+													<div class="cart_item_name">
+														<p>Magento Art plugin by Apple</p>
+													</div>
+													<div class="cart_item_close_correct">
+														<a href="#">
+															<span>&#9998;</span>
+														</a>
+														<a href="#">
+															<span>&#10005;</span>
+														</a>
+													</div>
+													<div class="cart_item_see_details">
+														<a href="javascript:PopUpShow()">See Details</a>
+													</div>
+												</div>
+												<div class="item_details_description">
+													<ul>
+														<li>
+															<span class="property">Color:</span>
+															<span class="value">black</span>
+														</li>
+														<li>
+															<span class="property">Version:</span>
+															<span class="value">silver</span>
+														</li>
+													</ul>
+												</div>
+												<div class="cart_quantity_cost">
+													<label for="cart_item">Qty</label>
+													<input type="text" id="cart_item">
+													<span>$134,00</span>
+												</div>
 											</div>
-											<div class="view_and_edit_cart">
-												<a href="#">View and edit cart</a>
-											</div>
-										</div>
-									</li>
-								</ul>
+										</li>		
+									</ul>
+								</div>
+								<div class="view_and_edit_cart">
+									<a href="#">View and edit cart</a>
+								</div>								
 							</div>
 
 							<!-- *******Float cart window end****** -->
@@ -383,6 +425,18 @@
 			$("#popup1").hide();
 			}
 		</script>	
+		<!-- See details block -->
+<!-- 		<script>
+			$(document).ready(function(){
+			PopUpHide();
+			});
+			function PopUpShow(){
+			$(".cart_item_see_details").show();
+			}
+			function PopUpHide(){
+			$(".cart_item_see_details").hide();
+			}
+		</script>	 -->	
 		<script>$(document).ready(function() {
 			$("#owl-demo").owlCarousel({
  

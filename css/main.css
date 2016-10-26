@@ -5,7 +5,7 @@
 	font-weight: normal;
   	font-style: normal;
   	font-stretch: normal;
-	outline: 0.1px dashed red;
+	/*outline: 0.1px dashed red;*/
 	padding: 0;
 }
 
@@ -832,11 +832,16 @@ p.span_account{
 	font-size: 18px;
 	font-family: 'HelveticaNeueBold';
 }
-.check_out_butt button {
+.check_out_butt{
 	display: block;
-	float: right;
+	float: left;
 	margin-top: 18px;
 	margin-right: 4px;
+	width: 326px;
+	height: 50px;
+}
+.check_out_butt button {
+	display: block;
 	background-color: #185d82;
 	border-radius: 5px;
 	width: 326px;
@@ -853,17 +858,93 @@ p.span_account{
 	float: left;
 	width: 100px;
 }
+.cart_prod_details div{
+	display: block;
+	float: left;
+}
 .cart_prod_details{
 	width: 230px;
 	float: left;
 }
+.item_positions_block{
+	float: left;
+}
 ul.item_positions{
-	margin-top: 145px;
 	list-style: none;
+}
+li.item_positions_lines{
+	display: block;
+	float: left;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+li.item_positions_lines:nth-child(1){
+	border-bottom: 1px solid #15496c;
+}
+.cart_item_name{
+	width: 130px;
+	margin-left: 20px;
 }
 .cart_item_name p{
 	margin: 0px;
-	margin-left: 20px;
 	width: 120px;
 	font-size: 14px;
+}
+.cart_item_close_correct{
+	margin-left: 38px;
+	height: 16px;
+}
+.cart_item_close_correct span{
+	margin: 0px;
+	font-size: 18px;
+}
+.cart_item_see_details{
+	margin-left: 20px;
+}
+.item_details_description{
+	margin-top: 17px;
+	margin-left: 21px;
+}
+.item_details_description ul{
+	list-style: none;
+}
+.item_details_description span{
+	display: inline;
+	float: left;
+}
+.cart_quantity_cost{
+	margin-top: 26px;
+	margin-left: 20px;
+}
+.cart_quantity_cost label{
+	display: block;
+	float: left;
+	margin-top: 2px;
+}
+.cart_quantity_cost input{
+	display: block;
+	float: left;
+	margin-left: 8px;
+	margin-top: 0px;
+	width: 40px;
+	padding-right: 5px;
+	text-align: center;
+	font-size: 14px;
+}
+.cart_quantity_cost span{
+	display: block;
+	float: left;
+	margin-left: 70px;
+	font-family: 'HelveticaNeueBold';	
+	font-size: 18px;
+}
+.cart_quantity_cost input:focus{
+	box-shadow: inset 0 1px 0 0 #ececec;
+	border: solid 1px #185d82;	
+}
+.view_and_edit_cart{
+	float: left;
+	margin-left: 110px;
+	margin-top: 15px;
 }
