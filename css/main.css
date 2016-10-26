@@ -5,7 +5,7 @@
 	font-weight: normal;
   	font-style: normal;
   	font-stretch: normal;
-	/*outline: 0.1px dashed red;*/
+	outline: 0.1px dashed red;
 	padding: 0;
 }
 
@@ -769,4 +769,101 @@ p.span_account{
 }
 .send_review_but:hover {
 	background-color: #164f6e;
+}
+
+/********Pop-up window********/
+
+.b-popup{
+	padding: 30px;
+	width: 392px;
+    display: block;
+	position: absolute;
+	right: -18px;
+	background: white;
+	margin-top: 4px;
+	z-index: 100;
+	top: 100%;
+	border: solid 1px #15496c;
+}
+.b-popup::before, .b-popup::after {
+	content: ''; 
+	position: absolute;
+	left: auto;
+	right: 35px;
+	top:-20px;
+	border: 10px solid transparent;
+	border-bottom: 10px solid #15496c;
+}
+.b-popup::after {
+    border-bottom: 10px solid white;
+    top: -18.7px; 
+}
+.items_cart_line div{
+	display: block;
+	margin-top: 1px;
+}
+.cart_items{
+	width: 60px;
+	float: left;
+}
+.items_total_quantity{
+	font-size: 15px;
+	font-stretch: "HelveticaNeueBold";
+}
+.item_items{
+	font-size: 15px;
+}
+.cart_subt{
+	width: 90px;
+	float: left;
+	margin-left: 178px;
+}
+.cart_subt p{
+	font-size: 14px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.cart_tot_price{
+	float: left;
+	margin-left: 199px;
+	margin-top: 4px;
+}
+.cart_tot_price span{
+	font-size: 18px;
+	font-family: 'HelveticaNeueBold';
+}
+.check_out_butt button {
+	display: block;
+	float: right;
+	margin-top: 18px;
+	margin-right: 4px;
+	background-color: #185d82;
+	border-radius: 5px;
+	width: 326px;
+	height: 50px;
+	font-size: 17px;
+	font-family: 'HelveticaNeueBold';
+	color: white;
+	border: none;
+}
+.check_out_butt button:hover {
+	background-color: #164f6e;
+}
+.cart_prev_item{
+	float: left;
+	width: 100px;
+}
+.cart_prod_details{
+	width: 230px;
+	float: left;
+}
+ul.item_positions{
+	margin-top: 145px;
+	list-style: none;
+}
+.cart_item_name p{
+	margin: 0px;
+	margin-left: 20px;
+	width: 120px;
+	font-size: 14px;
 }
