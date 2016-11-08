@@ -53,6 +53,28 @@ textarea:focus {
 .cart{
 	float: right;
 }
+.cart_icon_area{ 
+	width: 40px;
+	height: 34px;
+	padding-top: 14px;
+	padding-left: 20px;
+	background: #ffffff url("images/cart.png") no-repeat left top;
+
+}
+.cart_icon_area:hover{
+	background: #ffffff url("images/cart_hover.png") no-repeat left top; 
+}
+.cart_icon_area span{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color: #ef973a;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 3px;
+	font-size: 12px;
+	color: #ffffff;
+}
 
 /*************Slider start***********/
 
