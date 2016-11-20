@@ -5,7 +5,7 @@
 	font-weight: normal;
   	font-style: normal;
   	font-stretch: normal;
-	/*outline: 0.1px dashed red;*/
+/*	outline: 0.1px dashed red;*/
 	padding: 0;
 }
 
@@ -27,31 +27,41 @@ textarea:focus {
 /***Common setting end***/
 
 /**************Main Page*******************/
+.header{
+	margin-top: 25px;
+	margin-bottom: 5px;
+	padding: 0px 12px 20px 14px;
+}
 .logo{
 	float: left;
-	padding-top: 25px;
-	height: 130px;
 }
+
 .navigation{
+	margin-top: 25px;
 	float: right;
-	margin-top: 50px;
-	width: 312px;
-	height: 40px;
+	width: 302px;
 }
 .account{
-	float: left;
-	margin-top: 5px;
+
 }
 .account a{
+	margin-top: 5px;
+	display: block;
+	float: left;
 	font-size: 21px;
-	margin-left: 15px;
-	margin-right: 10px;
+	height: 30px;
+
+}
+.account a:last-child{
+	margin-left: 30px;
 }
 .account a:hover{
 	color: #ef973a;
 }
 .cart{
-	float: right;
+	float: left;
+	margin-top: 2px;
+	margin-left: 43px;
 }
 .cart_icon_area{ 
 	width: 40px;

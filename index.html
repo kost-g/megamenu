@@ -3,17 +3,17 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>MAGENEAR</title>
-		<!-- <meta name="description" content="Создание адаптивного сайта" />
+		<!-- <meta name="description" content="Создание адаптивного сайта" /> -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="SHORTCUT ICON" href="images/logo_title.ico" />
 		<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
-		<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css"/> 
+<!-- 		<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css"/> 
 		<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
-		<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
-		<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+		<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" /> -->
 		<link rel="stylesheet" href="css/fonts.css" />
 		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
 		<link rel="stylesheet" href="css/media.css" />
 	</head>
 	<body>
@@ -23,12 +23,12 @@
 				<!-- ******************************Header start************************************* -->
 
 				<div class="row header">
-					<div class="col-md-6">
+					<div class="log_block">
 						<div class="logo">
 							<a href="#"><img src="images/logo.png" alt="logo"></a>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="navigation_block">
 						<div class="navigation">
 							<div class="account">
 								<a href="#">My Account</a>
@@ -400,12 +400,6 @@
 
 			</div>
 		</div>
-		<!--[if lt IE 9]>
-		<script src="libs/html5shiv/es5-shim.min.js"></script>
-		<script src="libs/html5shiv/html5shiv.min.js"></script>
-		<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
-		<script src="libs/respond/respond.min.js"></script>
-		<![endif]-->
 		<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 		<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
 		<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
@@ -417,7 +411,9 @@
 		<script src="libs/countdown/jquery.countdown-ru.js"></script>
 		<script src="libs/landing-nav/navigation.js"></script>
 		<script src="js/common.js"></script>
+		
 		<!-- Cart pop-up window -->
+
 		<script>
 			$(document).ready(function(){
 			PopUpHide();
@@ -428,19 +424,8 @@
 			function PopUpHide(){
 			$("#popup1").hide();
 			}
-		</script>	
-		<!-- See details block -->
-<!-- 		<script>
-			$(document).ready(function(){
-			PopUpHide();
-			});
-			function PopUpShow(){
-			$(".cart_item_see_details").show();
-			}
-			function PopUpHide(){
-			$(".cart_item_see_details").hide();
-			}
-		</script>	 -->	
+		</script>
+
 		<script>$(document).ready(function() {
 			$("#owl-demo").owlCarousel({
  
@@ -458,9 +443,6 @@
    			// itemsMobile : false
 			});
 			});
-		</script>
-		<!-- Yandex.Metrika counter --><!-- Yandex.Metrika counter -->
-		<script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter25346996 = new Ya.Metrika({id:25346996, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/25346996" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
-		<!-- Google Analytics counter --><!-- /Google Analytics counter -->		
+		</script>	
 	</body>
 </html>

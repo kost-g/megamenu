@@ -8,37 +8,11 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 
-	.sell_right .button {
-		margin: 15px auto;
-		float: none;
-		max-width: 250px;
-	}
-	.sell_descr {
-		text-align: center;
-	}
-
-	.maian_mnu ul {
-		background-color: #3797bf;
-		display: none;
-		position: absolute;
-		width: 100%;
-	}
-	.maian_mnu ul li {
-		display: block;
-	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	.top_links {
-		background-color: #585d61;
-		display: none;
-		margin-top: 15px;
-		padding: 14px;
-		position: absolute;
-		vertical-align: middle;
-		width: 100%;
-	}
+
 }
 
 /* Extra Small Devices, Phones */
@@ -56,29 +30,67 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-
+	.main_header h1{
+	margin-left: 5px;
+	margin-top: 24px;
+	font-size: 20px;
+	}
+	.owl-page {
+	display: none;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
-
+	.main_header h1{
+	margin-left: 5px;
+	margin-top: 36px;
+	font-size: 30px;
+	}
+	.main_button {
+	display: none;
+	}
+	.owl-page {
+	display: none;
+	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	.top_links {
-		display: inline-block !important;
+	.main_header h1{
+	font-size: 46px;
+	}
+	.main_button {
+		display: block;
+	margin-left: 5px;
+	}
+	.owl-page {
+	display: inline-block;	
 	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	.maian_mnu ul {
-		display: block !important;
+	.main_header h1{
+	margin-left: 10px;
+	margin-top: 70px;
+	font-size: 60px;
+	}
+	.main_button {
+	margin-left: 24px;
 	}
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-
+	.main_header h1{
+	display: inline-block;
+	font-family: "HelveticaNeue-Thin";
+	margin-top: 62px;
+	margin-left: 58px;
+	font-size: 65px;
+	}
+	.main_button {
+	margin-left: 42px;
+	}
 }
