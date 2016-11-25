@@ -3,76 +3,181 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>MAGENEAR</title>
-		<!-- <meta name="description" content="Создание адаптивного сайта" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="shortcut icon" href="images/log_title.jpg" />
-		<!-- bxSlider CSS file -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- scaling for different gadgets -->
 		<link href="libs/bxslider-4-master/dist/jquery.bxslider.css" rel="stylesheet"/>
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
 		<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
-		<!-- <link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" /> -->
-		<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
-		<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
 		<link rel="stylesheet" href="css/fonts.css" />
 		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
 		<link rel="stylesheet" href="css/media.css" />
-
 	</head>
 	<body>
 		<div class="wrapp">
 			<div class="container">
-
+				
 				<!-- ******************************Header start************************************* -->
 
 				<div class="row header">
-					<div class="col-md-6">
+					<div class="log_block">
 						<div class="logo">
-							<a href="#"><img src="images/logo.png" alt="logo"></a>
+							<a href="index.html"><img src="images/logo.png" alt="logo"></a>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="navigation_block">
 						<div class="navigation">
 							<div class="account">
 								<a href="#">My Account</a>
 								<a href="#">Sign Up</a>
 							</div>
 							<div class="cart">	
-								<a href="javascript:PopUpShow()">
+								<a href="#">
 									<div class="cart_icon_area">
 										<span class="item_quantity">8</span>
 									</div>
 								</a>
 							</div>
+
+							<!-- *******Float cart window start****** -->
+
+							<div class="b-popup" id="popup1">
+								<div class="items_cart_line">
+									<div class="cart_items">
+										<span class="items_total_quantity">2</span>
+										<span class="item_items">items</span>
+									</div>
+									<div class="cart_subt">
+										<p>Cart Subtotal:</p>
+									</div>
+								</div>
+								<div class="cart_tot_price">
+									<span>$268.00</span>
+								</div>
+								<div class="check_out_butt">
+									<button title="Go to Checkout" onclick="#" type="submit">Go to Checkout</button>
+								</div>
+								<div class="item_positions_block">
+									<ul class="item_positions">
+										<li class="item_positions_lines">
+											<div class="cart_prev_item">
+												<img src="images/cart_item_1.png" alt="preview">
+											</div>
+											<div class="cart_prod_details">
+												<div class="cart_item_description">
+													<div class="cart_item_name">
+														<p>Magento Art plugin</p>
+													</div>
+													<div class="cart_item_close_correct">
+														<a href="#">
+															<span>&#9998;</span>
+														</a>
+														<a href="#">
+															<span>&#10005;</span>
+														</a>
+													</div>
+													<div class="cart_item_see_details">
+														<a href="#">See Details</a>
+													</div>
+												</div>
+												<div class="item_details_description">
+													<ul>
+														<li>
+															<span class="property">Color:</span>
+															<span class="value">black</span>
+														</li>
+														<li>
+															<span class="property">Version:</span>
+															<span class="value">silver</span>
+														</li>
+													</ul>
+												</div>
+												<div class="cart_quantity_cost">
+													<label for="cart_item">Qty</label>
+													<input type="text" id="cart_item">
+													<span>$134,00</span>
+												</div>
+											</div>
+										</li>
+										<li class="item_positions_lines">
+											<div class="cart_prev_item">
+												<img src="images/cart_item_2.png" alt="preview">
+											</div>
+											<div class="cart_prod_details">
+												<div class="cart_item_description">
+													<div class="cart_item_name">
+														<p>Magento Art plugin by Apple</p>
+													</div>
+													<div class="cart_item_close_correct">
+														<a href="#">
+															<span>&#9998;</span>
+														</a>
+														<a href="#">
+															<span>&#10005;</span>
+														</a>
+													</div>
+													<div class="cart_item_see_details">
+														<a href="#">See Details</a>
+													</div>
+												</div>
+												<div class="item_details_description">
+													<ul>
+														<li>
+															<span class="property">Color:</span>
+															<span class="value">black</span>
+														</li>
+														<li>
+															<span class="property">Version:</span>
+															<span class="value">silver</span>
+														</li>
+													</ul>
+												</div>
+												<div class="cart_quantity_cost">
+													<label for="cart_item">Qty</label>
+													<input type="text" id="cart_item">
+													<span>$134,00</span>
+												</div>
+											</div>
+										</li>		
+									</ul>
+								</div>
+								<div class="view_and_edit_cart">
+									<a href="#">View and edit cart</a>
+								</div>								
+							</div>
+
+							<!-- *******Float cart window end****** -->
+
 						</div>
-					</div>		
+					</div>
 				</div>
 
 				<!-- ******************************Header end************************************* -->
-
+				
 				<div class="row products_name">
 					<div class="product_name">
-						<p>Magento® 2 extensions</p>
-						<p>Free Magento® 2 extensions</p>
-					</div>			
+						<a href="#">Magento® 2 extensions</a>
+						<a href="#">Free Magento® 2 extensions</a>
+					</div>
 				</div>
 				<div class="row product_descript">
-					<div class="col-md-4">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider_view_col">
 						<div class="slider_view">
 							<div class="main_slide_view">
 								<ul class="bxslider">
-  									<li><img src="/images/product1.png" /></li>
-  									<li><img src="/images/product2.png" /></li>
-  									<li><img src="/images/product3.png" /></li>
-  									<li><img src="/images/product4.png" /></li>
-  									<li><img src="/images/product5.png" /></li>
-  									<li><img src="/images/product6.png" /></li>
+									<li><img src="/images/product1.png" /></li>
+									<li><img src="/images/product2.png" /></li>
+									<li><img src="/images/product3.png" /></li>
+									<li><img src="/images/product4.png" /></li>
+									<li><img src="/images/product5.png" /></li>
+									<li><img src="/images/product6.png" /></li>
+							</div>
+							<div class="social_media">
+								<!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_share_toolbox"></div>
 							</div>
 						</div>
-						<div class="social_media">
-							<!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_share_toolbox"></div>
-						</div>
 					</div>
-					<div class="col-md-5">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 plug_data">
 						<div class="views_add">
 							<a href="#">135 Review(s) </a>
 							<p>/</p>
@@ -86,32 +191,36 @@
 						</div>
 						<div class="buttons_view">
 							<div class="front_dem">
-								<button> <img src="images/arrow.png" alt="arr"> Frontend Demo</button>	
+								<button> <img src="images/arrow.png" alt="arr"> Frontend Demo</button>
 							</div>							
 							<div class="back_dem">
-								<button> <img src="images/gear.png" alt="gear"> Backend Demo</button>	
+								<button> <img src="images/gear.png" alt="gear"> Backend Demo</button>
 							</div>							
 							<div class="user_butt">
 								<button> <img src="images/user_pic.png" alt="user_butt"> User Guide</button>	
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-lg-12 col-sm-12 col-xs-12 price_data_col">
 						<div class="product_order">
 							<div class="price_items">
 								<ul>
 									<li>
-										<input type="checkbox" name="" value="" onclick="" price="200" >
-										<div >
-											<span>Enterprise</span>
-											<span>+<span>$200.00</span></span>
-										</div>	
+										<input type="checkbox" name="" value="" onclick="" price="200" id="enter_id">
+										<div>
+											<label for="enter_id">
+												<span>Enterprise</span>
+												<span>+<span>$200.00</span></span>
+											</label>
+										</div>
 									</li>
 									<li>
-										<input type="checkbox" name="" value="" onclick="" price="50">
+										<input type="checkbox" name="" value="" onclick="" price="50" id="install_id">
 										<div>	
-											<span>Installation</span>
-											<span>+<span>$50.00</span></span>
+											<label for="install_id">
+												<span>Installation</span>
+												<span>+<span>$50.00</span></span>
+											</label>
 										</div>
 									</li>
 								</ul>
@@ -132,7 +241,7 @@
 				</div>
 				<div class="row detile_list">
 					<div class="col-md-12 rew_det">
-						<div class="rew_det_inside">	
+						<div class="rew_det_inside">
 							<div class="descr1">
 								<a href="#">Rewievs</a>
 							</div>
@@ -206,58 +315,57 @@
 							<h4>Your Review</h4>
 						</div>
 						<form action="review.php" method="POST" name="review_form" id="rev_form">
-                    		<div class="form_nick">
-                    			<label for="nickname" class="nick_labe">Nickname</label>
-                    			<input type="text" value="" placeholder="" name="nickname" autocomplete="on" required>	
-                    		</div>
-                    		<div class="form_summ">
-                    			<label for="summary" class="summ_labe">Summary</label>
-                    			<input type="text" value="" placeholder="" name="summary" required>	
-                    		</div>
-                    		<div class="text_review">
-                    			<label for="message_text" class="nick_labe">Review</label>
-                    			<textarea name="text-area" value="message_text" id="message-window" placeholder="">
-                    			</textarea>	
-                    		</div>
-                    		<div class="send_review_but">
-                    			<button type="submit" form="rev_form" value="Sent" title="="Sent">Sent
-                    			</button>                    			
-                    		</div>
-                		</form>  
+							<div class="form_nick">
+							<label for="nickname" class="nick_labe">Nickname</label>
+							<input type="text" value="" placeholder="" name="nickname" autocomplete="on" required>	
+							</div>
+							<div class="form_summ">
+							<label for="summary" class="summ_labe">Summary</label>
+							<input type="text" value="" placeholder="" name="summary" required>	
+						</div>
+						<div class="text_review">
+							<label for="message_text" class="nick_labe">Review</label>
+							<textarea name="text-area" value="message_text" id="message-window" placeholder="">  </textarea>
+						</div>
+						<div class="send_review_but">
+								<button type="submit" form="rev_form" value="Sent" title="="Sent">Sent
+								</button>
+							</div>
+						</form>
 					</div>	
 				</div>
-
+				
 				<!-- ******************************Footer start************************************* -->
 				
-				<div class="row footer">
+					<div class="row footer">
 					<div class="footer_content">
-						<div class="col-md-3 company">
+						<div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12 company">
 							<div class="footer1">
 								<h4>Company</h4>
 								<p><a href="#">About us</a></p>
 								<p><a href="#">Privacy Policy</a></p>
 								<p><a href="#">Liecense Agreement</a></p>
 							</div>
-							<div class="footer2">	
+							<div class="footer2">
 								<h4>Resources</h4>
 								<p><a href="#">Contuct Us</a></p>
 								<p><a href="#">Refund Plicy</a></p>	
 							</div>
 						</div>
-						<div class="col-md-2 we accept">
+						<div class="col col-lg-2 col-sm-3 col-xs-3 we_accept">
 							<div class="footer3">
 								<h4>We accept</h4>
-								<img src="images/payment.png" alt="payment">	
+								<img src="images/payment.png" alt="payment">
 							</div>
 						</div>
-						<div class="col-md-2 secure">
+						<div class="col col-lg-3 col-sm-3 col-xs-2 secure">
 							<img src="images/comodo.png" alt="secure">
 						</div>
-						<div class="col-md-5 subscribe">
+						<div class="col col-lg-4 col-sm-12 col-xs-12 subscribe">
 							<p>Useful delivery of a Magenta. Tutorials, tips and examples of each week, without spam.</p>
 							<form action="#" method="POST" name="subs" id="subs_form">
 								<div class="input">
-									<input  name="email" type="email" title="&#9993; Enter your email adress" placeholder=" &#9993; Enter your email adress" required></input>	
+									<input  name="email" type="email" placeholder="Enter your email adress" required></input>
 								</div>
 								<div class="mail_button">
 									<button title="Subscribe" onclick="#" type="submit">Subscribe</button>
@@ -274,26 +382,14 @@
 
 			</div>
 		</div>
-		<!--[if lt IE 9]>
-		<script src="libs/html5shiv/es5-shim.min.js"></script>
-		<script src="libs/html5shiv/html5shiv.min.js"></script>
-		<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
-		<script src="libs/respond/respond.min.js"></script>
-		<![endif]-->
 		<script src="libs/jquery/jquery-1.11.1.min.js"></script>
-		<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
-		<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
-		<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
-		<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
-		<script src="libs/countdown/jquery.plugin.js"></script>
-		<script src="libs/countdown/jquery.countdown.min.js"></script>
-		<script src="libs/countdown/jquery.countdown-ru.js"></script>
-		<script src="libs/landing-nav/navigation.js"></script>
-		<script src="js/common.js"></script>
+
 		<!-- jQuery library (served from Google) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
 		<!-- Social media with addthis Go to www.addthis.com/dashboard to customize your tools -->
-		 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-580dff2d6fd41fdf"></script> 
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-580dff2d6fd41fdf"></script>
+
 		<!-- bxSlider Javascript file -->
 		<script src="libs/bxslider-4-master/dist/jquery.bxslider.min.js"></script>
 		<script>
@@ -317,7 +413,5 @@
 			  }
 			});
 		</script>
-		<!-- Yandex.Metrika counter --><!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter25346996 = new Ya.Metrika({id:25346996, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/25346996" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
-		<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 	</body>
 </html>

@@ -21,24 +21,144 @@
 	<body>
 		<div class="wrapp">
 			<div class="container">
+				
+				<!-- ******************************Header start************************************* -->
+
 				<div class="row header">
-					<div class="col-md-6">
+					<div class="log_block">
 						<div class="logo">
-							<a href="#"><img src="images/title.jpg" alt="logo"></a>
+							<a href="#"><img src="images/logo.png" alt="logo"></a>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="navigation_block">
 						<div class="navigation">
 							<div class="account">
 								<a href="#">My Account</a>
 								<a href="#">Sign Up</a>
 							</div>
 							<div class="cart">	
-								<a href="#"><img src="images/cart.jpg" alt="cart"></a>
+								<a href="#">
+									<div class="cart_icon_area">
+										<span class="item_quantity">8</span>
+									</div>
+								</a>
 							</div>
+
+							<!-- *******Float cart window start****** -->
+
+							<div class="b-popup" id="popup1">
+								<div class="items_cart_line">
+									<div class="cart_items">
+										<span class="items_total_quantity">2</span>
+										<span class="item_items">items</span>
+									</div>
+									<div class="cart_subt">
+										<p>Cart Subtotal:</p>
+									</div>
+								</div>
+								<div class="cart_tot_price">
+									<span>$268.00</span>
+								</div>
+								<div class="check_out_butt">
+									<button title="Go to Checkout" onclick="#" type="submit">Go to Checkout</button>
+								</div>
+								<div class="item_positions_block">
+									<ul class="item_positions">
+										<li class="item_positions_lines">
+											<div class="cart_prev_item">
+												<img src="images/cart_item_1.png" alt="preview">
+											</div>
+											<div class="cart_prod_details">
+												<div class="cart_item_description">
+													<div class="cart_item_name">
+														<p>Magento Art plugin</p>
+													</div>
+													<div class="cart_item_close_correct">
+														<a href="#">
+															<span>&#9998;</span>
+														</a>
+														<a href="#">
+															<span>&#10005;</span>
+														</a>
+													</div>
+													<div class="cart_item_see_details">
+														<a href="#">See Details</a>
+													</div>
+												</div>
+												<div class="item_details_description">
+													<ul>
+														<li>
+															<span class="property">Color:</span>
+															<span class="value">black</span>
+														</li>
+														<li>
+															<span class="property">Version:</span>
+															<span class="value">silver</span>
+														</li>
+													</ul>
+												</div>
+												<div class="cart_quantity_cost">
+													<label for="cart_item">Qty</label>
+													<input type="text" id="cart_item">
+													<span>$134,00</span>
+												</div>
+											</div>
+										</li>
+										<li class="item_positions_lines">
+											<div class="cart_prev_item">
+												<img src="images/cart_item_2.png" alt="preview">
+											</div>
+											<div class="cart_prod_details">
+												<div class="cart_item_description">
+													<div class="cart_item_name">
+														<p>Magento Art plugin by Apple</p>
+													</div>
+													<div class="cart_item_close_correct">
+														<a href="#">
+															<span>&#9998;</span>
+														</a>
+														<a href="#">
+															<span>&#10005;</span>
+														</a>
+													</div>
+													<div class="cart_item_see_details">
+														<a href="#">See Details</a>
+													</div>
+												</div>
+												<div class="item_details_description">
+													<ul>
+														<li>
+															<span class="property">Color:</span>
+															<span class="value">black</span>
+														</li>
+														<li>
+															<span class="property">Version:</span>
+															<span class="value">silver</span>
+														</li>
+													</ul>
+												</div>
+												<div class="cart_quantity_cost">
+													<label for="cart_item">Qty</label>
+													<input type="text" id="cart_item">
+													<span>$134,00</span>
+												</div>
+											</div>
+										</li>		
+									</ul>
+								</div>
+								<div class="view_and_edit_cart">
+									<a href="#">View and edit cart</a>
+								</div>								
+							</div>
+
+							<!-- *******Float cart window end****** -->
+
 						</div>
 					</div>		
 				</div>
+
+				<!-- ******************************Header end************************************* -->
+				
 				<div class="row products_name">
 					<div class="col-md-12">				
 						<div class="horizont_line_top"></div>
@@ -224,22 +344,21 @@
                     		</div>
                     		<div class="text_review">
                     			<label for="message_text" class="nick_labe">Review</label>
-                    			<textarea name="text-area" value="message_text" id="message-window" placeholder="">
-                    			</textarea>	
+                    			<textarea name="text-area" value="message_text" id="message-window" placeholder=""></textarea>
                     		</div>
                     		<div class="send_review_but">
                     			<button type="submit" form="rev_form" value="Sent" title="="Sent">Sent
-                    			</button>                    			
+                    			</button>
                     		</div>
-                		</form>  
+                		</form>
 					</div>	
 				</div>	
+				
+				<!-- ******************************Footer start************************************* -->
+				
 				<div class="row footer">
-					<div class="col-md-12">				
-						<div class="horizont_line"></div>
-					</div>
 					<div class="footer_content">
-						<div class="col-md-3 company">
+						<div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12 company">
 							<div class="footer1">
 								<h4>Company</h4>
 								<p><a href="#">About us</a></p>
@@ -252,37 +371,36 @@
 								<p><a href="#">Refund Plicy</a></p>	
 							</div>
 						</div>
-						<div class="col-md-2 we accept">
+						<div class="col col-lg-2 col-sm-3 col-xs-3 we_accept">
 							<div class="footer3">
 								<h4>We accept</h4>
 								<img src="images/payment.png" alt="payment">	
 							</div>
 						</div>
-						<div class="col-md-2 secure">
-							<img src="images/comodo-secure-logo-new.png" alt="secure">
+						<div class="col col-lg-3 col-sm-3 col-xs-2 secure">
+							<img src="images/comodo.png" alt="secure">
 						</div>
-						<div class="col-md-5 subscribe">
+						<div class="col col-lg-4 col-sm-12 col-xs-12 subscribe">
 							<p>Useful delivery of a Magenta. Tutorials, tips and examples of each week, without spam.</p>
-							<div class="input">
-								<input title="&#9993; Enter your email adress" placeholder=" &#9993; Enter your email adress" name="email"></input>	
-							</div>
-							<div class="mail_button">
-								<button title="Subscribe" onclick="#" type="submit">Subscribe</button>
-							</div>
+							<form action="#" method="POST" name="subs" id="subs_form">
+								<div class="input">
+									<input  name="email" type="email" placeholder="Enter your email adress" required></input>	
+								</div>
+								<div class="mail_button">
+									<button title="Subscribe" onclick="#" type="submit">Subscribe</button>
+								</div>
+							</form>
 						</div>
 					</div>
 				</div>
 				<div class="row reserved_rights">
 					<p>&#169; 2016 Magenear.com. All Rights Reserved.</p>
 				</div>
+
+				<!-- ******************************Footer end************************************* -->
+
 			</div>
 		</div>
-		<!--[if lt IE 9]>
-		<script src="libs/html5shiv/es5-shim.min.js"></script>
-		<script src="libs/html5shiv/html5shiv.min.js"></script>
-		<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
-		<script src="libs/respond/respond.min.js"></script>
-		<![endif]-->
 		<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 		<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
 		<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
