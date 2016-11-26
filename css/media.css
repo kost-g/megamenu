@@ -86,6 +86,12 @@
 	font-size: 46px;
 	margin-top: 80px;
 	}
+	.text_review {
+	width: 262px;
+	}
+.text_review textarea{
+	width: 262px;
+	}
 }
 
 /* Custom, iPhone Retina */
