@@ -54,6 +54,9 @@
 	.secure{
 	padding-left: 15px;
 	}
+	.feedback_text {
+	width: auto;
+	}
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 600px) {
@@ -89,8 +92,11 @@
 	.text_review {
 	width: 262px;
 	}
-.text_review textarea{
+	.text_review textarea{
 	width: 262px;
+	}
+	.subscribe p{
+	width: auto;
 	}
 }
 
