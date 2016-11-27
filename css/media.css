@@ -10,7 +10,7 @@
 	}
 	.subscribe p{
 	margin-left: 0;
-	width: 340px;
+	max-width: 340px;
 	}
 	.input input{
 	margin-left: auto;
