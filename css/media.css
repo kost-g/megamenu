@@ -66,7 +66,13 @@
 	.navigation{
 	float: left;
 	}
-}
+/*	.slider_view_col{
+		padding: 0 120px !important;
+	}*/
+/*	.bx-viewport{
+		padding: 0 150px; 
+	}
+}*/
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -90,17 +96,21 @@
 	margin-top: 80px;
 	}
 	.text_review {
-	width: 262px;
+	width: 290px;
 	}
 	.text_review textarea{
-	width: 262px;
+	width: 290px;
 	}
 	.subscribe p{
 	width: auto;
 	}
+/*	.main_slide_view{
+		max-height: 300px;
+	}*/
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
+}
 }

@@ -1,4 +1,4 @@
-* {
+*	{
 	transition: all 0.01s;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -12,9 +12,10 @@
 body{
 	overflow-x:hidden;
 }
+
 /***Common setting start***/
 
-input { 
+input{ 
 	text-indent: 5px; 
 }
 button:focus {
@@ -37,6 +38,7 @@ textarea:focus {
 }
 .logo{
 	float: left;
+	margin-right: 15px;
 }
 .navigation{
 	margin-top: 25px;
@@ -119,7 +121,6 @@ textarea:focus {
 	border-bottom: 10px solid white;
 	top: -18.7px; 
 }
-
 .items_cart_line div{
 	display: block;
 	margin-top: 1px;
@@ -130,7 +131,7 @@ textarea:focus {
 }
 .items_total_quantity{
 	font-size: 15px;
-	font-stretch: "HelveticaNeueBold";
+	font-family: "HelveticaNeueBold";
 }
 .item_items{
 	font-size: 15px;
@@ -463,8 +464,7 @@ h2.row3{
 	height: 12px;
 }
 .down_plug_line {
-	float: 
-	bottom: ;10px;
+	bottom: 10px;
 	width: 100%;
 	height: 40px;
 }
@@ -561,6 +561,9 @@ h2.row3{
 	display: inline-block;
 	margin-top: 10px;
 }
+.input{
+	margin-right: 8px;
+}
 .input input {
 	width: 230px;
 	height: 32px;
@@ -590,10 +593,6 @@ h2.row3{
 .input:before {
 	position: absolute
 }
-/*.input input:invalid {
-	box-shadow: inset 0 1px 0 0 #ececec;
-	border: solid 1px #821818;
-}*/
 .mail_button button {
 	width: 95px;
 	height: 34px;
@@ -604,7 +603,6 @@ h2.row3{
 .mail_button {
 	background-color: #185d82;
 	border-radius: 5px;
-	margin-left: 8px;	
 }
 .mail_button:hover {
 	background-color: #164f6e;
@@ -635,7 +633,7 @@ h2.row3{
 	line-height: 0.95;
 	color: #15496c;
 }
-.product_name a::nth-child(1){
+.product_name a:nth-child(1){
 	margin-right: 27px;
 }
 .product_name a:hover{
@@ -690,7 +688,6 @@ h2.row3{
 }
 .social_media div{
 	display: inline-block;
-/*	float: left;*/
 	margin-top: 7px;
 	margin-right: 10px;
 }
@@ -886,7 +883,6 @@ border: solid 2px #ffffff;
 	margin: 0;
 	border-bottom: solid 1px #979797;
 }
-
 /*.rew_det > label:hover,*/
 .rew_det > input:checked + label{
 	color: #a6a6a6;
@@ -966,11 +962,15 @@ p.span_account{
 	margin-bottom: 15px;
 	font-size: 30px;
 }
-.form_nick,
-.form_summ{
+.form_nick{
 	display: inline-block;
 	width: 165px;
 	margin-right: 26px;
+	margin-bottom: 16px;
+}
+.form_summ{
+	display: inline-block;
+	width: 165px;
 	margin-bottom: 16px;
 }
 .form_nick input{
@@ -996,7 +996,7 @@ p.span_account{
 .review_add label{
 	font-size: 17px;;
 }
-.text_review {
+.text_review{
 	display: inline-block;
 	width: 457px;
 	margin-bottom: 15px;
