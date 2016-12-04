@@ -1,0 +1,30 @@
+{
+  "name": "magenear",
+  "version": "1.0.0",
+  "description": "megamenu magento site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kost-g/megamenu.git"
+  },
+  "author": "Hres Kostya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kost-g/megamenu/issues"
+  },
+  "homepage": "https://github.com/kost-g/megamenu#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglifyjs": "^0.6.2"
+  }
+}
