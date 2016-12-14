@@ -6,19 +6,19 @@
 	font-weight: normal;
 }
 @font-face {
-	font-family: "HelveticaNeue-Thin";
+	font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Arial";
 	src: url("../fonts/HelveticaNeue-Thin.otf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
 @font-face {
-	font-family: "HelveticaNeueBold";
+	font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica";
 	src: url("../fonts/HelveticaNeueBold.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
 @font-face {
-	font-family: "HelveticaNeueMedium";
+	font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica";
 	src: url("../fonts/HelveticaNeueMedium.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;

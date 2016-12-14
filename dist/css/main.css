@@ -8,7 +8,10 @@
 	font-weight: normal;
 	font-style: normal;
 	font-stretch: normal;
-	padding: 0;
+	padding: 0px;
+}
+a:hover{
+	text-decoration: none;
 }
 body{
 	overflow-x:hidden;
@@ -133,7 +136,7 @@ textarea:focus {
 }
 .items_total_quantity{
 	font-size: 15px;
-	font-family: "HelveticaNeueBold";
+	font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica";;
 }
 .item_items{
 	font-size: 15px;
@@ -155,7 +158,7 @@ textarea:focus {
 }
 .cart_tot_price span{
 	font-size: 18px;
-	font-family: 'HelveticaNeueBold';
+	font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica";;
 }
 .check_out_butt{
 	display: block;
@@ -173,7 +176,7 @@ textarea:focus {
 	width: 326px;
 	height: 50px;
 	font-size: 17px;
-	font-family: 'HelveticaNeueBold';
+	font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica";;
 	color: white;
 	border: none;
 }
@@ -262,7 +265,7 @@ li.item_positions_lines:nth-child(1){
 	display: block;
 	float: left;
 	margin-left: 70px;
-	font-family: 'HelveticaNeueBold';	
+	font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica";;	
 	font-size: 18px;
 }
 .cart_quantity_cost input:focus{
@@ -302,13 +305,14 @@ li.item_positions_lines:nth-child(1){
 }
 .main_header h1{
 	display: inline-block;
-	font-family: "HelveticaNeue-Thin";
+	font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Arial";
 	margin-top: 62px;
 	margin-bottom: 0px;
 	margin-left: 58px;
 	color: white;
 	font-size: 65px;
 	font-weight: 100;
+	padding-bottom: 5px;
 }
 .slide_nav {
 	position: absolute;
@@ -328,10 +332,10 @@ li.item_positions_lines:nth-child(1){
 }
 .main_button a{
 	display: inline-block;
-	font-family: "HelveticaNeueBold";
+	font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma";
 	color: white;
 	width: 200px;
-	height: 52px;
+	height: 50px;
 	font-size: 24px;
 	padding-top: 10px;
 	padding-right: 10px;
@@ -375,7 +379,7 @@ li.item_positions_lines:nth-child(1){
 .advantages h2{
 	display: inline-block;
 	width: 225px;
-	font-family: 'HelveticaNeueMedium';
+	font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica";
 	font-size: 30px;
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -410,7 +414,7 @@ h2.row3{
 }
 .plugin:hover{
 	-webkit-box-shadow: 0 3px 7px 1px #979797;
-	        box-shadow: 0 3px 7px 1px #979797;
+	-moz-box-shadow: 0 3px 7px 1px #979797;
 }
 .plugin a{
 	height: 100%;
@@ -442,7 +446,7 @@ h2.row3{
 	font-size: 16px;
 }
 .plugin_name a{
-	font-family: 'HelveticaNeueMedium';
+	font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica";
 	font-size: 17px;
 	font-weight: 500;
 	line-height: 0.88;
@@ -490,7 +494,7 @@ h2.row3{
 	text-transform: uppercase;
 	font-size: 31px;
 	font-weight: bold;
-	font-family: 'HelveticaNeueBold';
+	font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica";;
 }
 .add_cart{
 	margin-top: 2px;
@@ -731,7 +735,7 @@ h2.row3{
 	margin: 0;
 }
 .header_product_name h1{
-	font-family: 'HelveticaNeueMedium';
+	font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica";
 	font-size: 48px;
 	font-weight: 500;
 	color: #333333;
@@ -782,7 +786,7 @@ border: solid 2px #ffffff;
 .buttons_view button {
 	display: inline-block;
 	font-size: 17px;
-	font-family: 'HelveticaNeueMedium';
+	font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica";
 	width: 185px;
 	height: 54px;
 	border: none;
@@ -831,7 +835,7 @@ border: solid 2px #ffffff;
 }
 .price_labe span{
 	font-size: 31px;
-	font-family: 'HelveticaNeueBold';
+	font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica";;
 }
 .price_items {
 	font-size: 16px;
@@ -930,7 +934,7 @@ border: solid 2px #ffffff;
 	display: block;
 }
 .cust_reviews h3{
-	font-family:'HelveticaNeueMedium';
+	font-family:"HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica";
 	margin-top: 7px;
 	font-size: 30px;
 	margin-bottom: 23px;
@@ -942,7 +946,7 @@ border: solid 2px #ffffff;
 }
 p.span_account{
 	font-size: 17px;
-	font-family: 'HelveticaNeueBold';
+	font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica";;
 }
 .inform_account span{
 	font-size: 17px;
@@ -1060,7 +1064,7 @@ p.span_account{
 	color: white;
 	border: none;
 	font-size: 14px;
-	font-family: 'HelveticaNeueBold';
+	font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica";;
 	background: none;
 }
 .send_review_but {
